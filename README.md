@@ -7,12 +7,6 @@ This project demonstrates how to build an agentic system using Large Language Mo
 
 ---
 
-## Video Explanation: 
-A detailed explanation of the project is available in the following YouTube video:
-
-Automating LLM Agents to Chat with Multiple/Large Databases (Combining RAG and SQL Agents): [Link](https://youtu.be/xsCedrNP9w8?si=v-3k-BoDky_1IRsg)
-
----
 
 ## Requirements
 
@@ -83,53 +77,7 @@ For unstructured data using Retrieval-Augmented Generation (RAG):
 
 All configurations are managed through YAML files in the `configs` folder, loaded by `src\chatbot\load_config.py` and `src\agent_graph\load_tools_config.py`. These modules are used for a clean distribution of configurations throughout the project.
 
-Once your databases are ready, you can either connect the current agents to the databases or create new agents. More details can be found in the accompanying YouTube video.
 
----
-
-## Project Schemas
-
-### High-level overview
-
-<div align="center">
-  <img src="images/high-level.png" alt="high-level">
-</div>
-
-### Detailed Schema
-
-<div align="center">
-  <img src="images/detailed_schema.png" alt="detailed_schema">
-</div>
-
-### Graph Schema
-
-<div align="center">
-  <img src="images/graph_image.png" alt="graph_image">
-</div>
-
-### SQL-agent for large databases strategies
-
-<div align="center">
-  <img src="images/large_db_strategy.png" alt="large_db_strategy">
-</div>
-
----
-
-## Chatbot User Interface
-
-<div align="center">
-  <img src="images/UI.png" alt="ChatBot UI">
-</div>
-
----
-
-## LangSmith Monitoring System
-
-<div align="center">
-  <img src="images/langsmith.png" alt="langsmith">
-</div>
-
----
 
 ## Databases Used
 
